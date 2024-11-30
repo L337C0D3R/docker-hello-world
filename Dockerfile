@@ -1,6 +1,6 @@
 FROM busybox:latest
 ENV PORT=8000
-LABEL maintainer="Chris <c@crccheck.com>"
+LABEL maintainer=""
 
 ADD index.html /www/index.html
 
